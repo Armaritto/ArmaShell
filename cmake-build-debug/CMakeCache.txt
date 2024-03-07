@@ -23,6 +23,15 @@ ArmaShellRito_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 ArmaShellRito_SOURCE_DIR:STATIC=/home/ubuntu/Documents/GitHub/ShellArmaritto
 
+//Value Computed by CMake
+ArmaShell_BINARY_DIR:STATIC=/home/ubuntu/Documents/GitHub/ShellArmaritto/cmake-build-debug
+
+//Value Computed by CMake
+ArmaShell_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+ArmaShell_SOURCE_DIR:STATIC=/home/ubuntu/Documents/GitHub/ShellArmaritto
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
@@ -142,7 +151,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=ShellArmaritto
+CMAKE_PROJECT_NAME:STATIC=ArmaShell
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib

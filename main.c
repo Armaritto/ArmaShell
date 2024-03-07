@@ -209,11 +209,11 @@ void shell_loop(){
     int status = 1;
     do {
         if(!strcmp(getenv("HOME"), getcwd(NULL, 0))){
-            printf(RED "%s", "ubuntu@ShellArmaritto:");
+            printf(RED "%s", "ubuntu@ArmaShell:");
             printf( "%s", "~$ " RESET);
         }
         else{
-            printf(RED "%s", "ubuntu@ShellArmaritto:");
+            printf(RED "%s", "ubuntu@ArmaShell:");
             printf("%s", getcwd(NULL, 0));
             printf("%s", "$ " RESET);
         }

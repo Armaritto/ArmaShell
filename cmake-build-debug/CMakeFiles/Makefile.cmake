@@ -43,5 +43,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/ShellArmaritto.dir/DependInfo.cmake"
+  "CMakeFiles/ArmaShell.dir/DependInfo.cmake"
   )

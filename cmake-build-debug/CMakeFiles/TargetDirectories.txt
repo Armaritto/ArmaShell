@@ -1,3 +1,3 @@
-/home/ubuntu/Documents/GitHub/ShellArmaritto/cmake-build-debug/CMakeFiles/ShellArmaritto.dir
+/home/ubuntu/Documents/GitHub/ShellArmaritto/cmake-build-debug/CMakeFiles/ArmaShell.dir
 /home/ubuntu/Documents/GitHub/ShellArmaritto/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/ubuntu/Documents/GitHub/ShellArmaritto/cmake-build-debug/CMakeFiles/rebuild_cache.dir

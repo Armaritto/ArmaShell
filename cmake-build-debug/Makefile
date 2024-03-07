@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ShellArmaritto
+# Target rules for targets named ArmaShell
 
 # Build rule for target.
-ShellArmaritto: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ShellArmaritto
-.PHONY : ShellArmaritto
+ArmaShell: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ArmaShell
+.PHONY : ArmaShell
 
 # fast build rule for target.
-ShellArmaritto/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ShellArmaritto.dir/build.make CMakeFiles/ShellArmaritto.dir/build
-.PHONY : ShellArmaritto/fast
+ArmaShell/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArmaShell.dir/build.make CMakeFiles/ArmaShell.dir/build
+.PHONY : ArmaShell/fast
 
 main.o: main.c.o
 .PHONY : main.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ShellArmaritto.dir/build.make CMakeFiles/ShellArmaritto.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArmaShell.dir/build.make CMakeFiles/ArmaShell.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -142,7 +142,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ShellArmaritto.dir/build.make CMakeFiles/ShellArmaritto.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArmaShell.dir/build.make CMakeFiles/ArmaShell.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -150,7 +150,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ShellArmaritto.dir/build.make CMakeFiles/ShellArmaritto.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArmaShell.dir/build.make CMakeFiles/ArmaShell.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ShellArmaritto"
+	@echo "... ArmaShell"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

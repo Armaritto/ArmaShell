@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "ShellArmaritto",
+					"name" : "ArmaShell",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "ShellArmaritto::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ShellArmaritto-Debug-6fc5235afd1849fedfb6.json",
-					"name" : "ShellArmaritto",
+					"id" : "ArmaShell::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ArmaShell-Debug-78d0c6c983ddfb12f7fe.json",
+					"name" : "ArmaShell",
 					"projectIndex" : 0
 				}
 			]
