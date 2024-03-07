@@ -2,42 +2,6 @@
 	"entries" : 
 	[
 		{
-			"name" : "ArmaShellRito_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/ubuntu/Documents/GitHub/ShellArmaritto/cmake-build-debug"
-		},
-		{
-			"name" : "ArmaShellRito_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "ArmaShellRito_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/ubuntu/Documents/GitHub/ShellArmaritto"
-		},
-		{
 			"name" : "ArmaShell_BINARY_DIR",
 			"properties" : 
 			[
@@ -47,7 +11,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ubuntu/Documents/GitHub/ShellArmaritto/cmake-build-debug"
+			"value" : "/home/ubuntu/Documents/GitHub/ArmaShell/cmake-build-debug"
 		},
 		{
 			"name" : "ArmaShell_IS_TOP_LEVEL",
@@ -71,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ubuntu/Documents/GitHub/ShellArmaritto"
+			"value" : "/home/ubuntu/Documents/GitHub/ArmaShell"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -127,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/ubuntu/Documents/GitHub/ShellArmaritto/cmake-build-debug"
+			"value" : "/home/ubuntu/Documents/GitHub/ArmaShell/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -547,7 +511,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ubuntu/Documents/GitHub/ShellArmaritto/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/ubuntu/Documents/GitHub/ArmaShell/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -607,7 +571,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/ubuntu/Documents/GitHub/ShellArmaritto"
+			"value" : "/home/ubuntu/Documents/GitHub/ArmaShell"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1180,42 +1144,6 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "/usr/sbin/sysctl"
-		},
-		{
-			"name" : "ShellArmaritto_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/ubuntu/Documents/GitHub/ShellArmaritto/cmake-build-debug"
-		},
-		{
-			"name" : "ShellArmaritto_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "ShellArmaritto_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/ubuntu/Documents/GitHub/ShellArmaritto"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

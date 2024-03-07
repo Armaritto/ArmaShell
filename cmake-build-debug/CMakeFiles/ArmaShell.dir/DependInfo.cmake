@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ubuntu/Documents/GitHub/ShellArmaritto/main.c" "CMakeFiles/ArmaShell.dir/main.c.o" "gcc" "CMakeFiles/ArmaShell.dir/main.c.o.d"
+  "/home/ubuntu/Documents/GitHub/ArmaShell/main.c" "CMakeFiles/ArmaShell.dir/main.c.o" "gcc" "CMakeFiles/ArmaShell.dir/main.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/ubuntu/Documents/GitHub/ShellArmaritto/cmake-build-debug",
-		"source" : "/home/ubuntu/Documents/GitHub/ShellArmaritto"
+		"build" : "/home/ubuntu/Documents/GitHub/ArmaShell/cmake-build-debug",
+		"source" : "/home/ubuntu/Documents/GitHub/ArmaShell"
 	},
 	"version" : 
 	{

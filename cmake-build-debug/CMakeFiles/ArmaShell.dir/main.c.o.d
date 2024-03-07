@@ -1,5 +1,5 @@
-CMakeFiles/ShellArmaritto.dir/main.c.o: \
- /home/ubuntu/Documents/GitHub/ShellArmaritto/main.c \
+CMakeFiles/ArmaShell.dir/main.c.o: \
+ /home/ubuntu/Documents/GitHub/ArmaShell/main.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
