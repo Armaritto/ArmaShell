@@ -1,5 +1,7 @@
 # ArmaShell
 
+![screen](screenshot.png)
+
 ## Overview
 ArmaShell is a simple UNIX shell implementation written in C, providing users with a command-line interface to interact with the operating system. ArmaShell includes built-in commands and supports the execution of external programs.
 
