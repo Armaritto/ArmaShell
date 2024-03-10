@@ -5,6 +5,7 @@
 #include <sys/wait.h>
 #define RED   "\x1B[31m"
 #define RESET "\x1B[0m"
+#define GREEN   "\x1b[32m"
 
 char* varNames[1000];
 char* varValues[1000];
@@ -39,6 +40,15 @@ void execute_command(char** args){
     if(pid == 0){
         if (args[1] && !strcmp(args[1], "&")) {
             args[1] = NULL;
+        }
+        else{
+            char* token = strtok(args[1]," ");
+            int x=1;
+            while(token!= NULL){
+                args[x] = token;
+                x++;
+                token = strtok(NULL, " ");
+            }
         }
         execvp(args[0], args);
         printf("Error! Command not found\n");
@@ -99,11 +109,20 @@ void execute_shell_builtin(char** command_array){
         }
     }
     else if(!strcmp("export", command_array[0])){
-        char* token = strtok(command_array[1], "=");
-        varNames[varIndex] = strdup(token);
-        token = strtok(NULL, "=");
-        varValues[varIndex] = strdup(token);
-        varIndex++;
+        char* tk = strtok(command_array[1], "\"");
+        if(command_array[2] == NULL){
+            char* token = strtok(command_array[1], "=");
+            varNames[varIndex] = strdup(token);
+            token = strtok(NULL, "=");
+            varValues[varIndex] = strdup(token);
+            varIndex++;
+        }
+        else{
+            char* token = strtok(tk, "=");
+            varNames[varIndex] = strdup(token);
+            varValues[varIndex] = command_array[2];
+            varIndex++;
+        }
     }
 }
 
@@ -244,6 +263,15 @@ void setup_environment(){
 }
 
 int main() {
+    printf(GREEN"\n"
+           "                                 _____ _          _ _ \n"
+           "     /\\                         / ____| |        | | |\n"
+           "    /  \\   _ __ _ __ ___   __ _| (___ | |__   ___| | |\n"
+           "   / /\\ \\ | '__| '_ ` _ \\ / _` |\\___ \\| '_ \\ / _ \\ | |\n"
+           "  / ____ \\| |  | | | | | | (_| |____) | | | |  __/ | |\n"
+           " /_/    \\_\\_|  |_| |_| |_|\\__,_|_____/|_| |_|\\___|_|_|\n"
+           "                                                   \n"
+           "   \n" RESET);
     register_child_signal(on_child_exit);
     setup_environment();
     shell_loop();
