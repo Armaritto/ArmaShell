@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/ArmaShell.dir/main.c.o -o ArmaShell 
